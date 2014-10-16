@@ -1,0 +1,57 @@
+{
+  "name": "reorder-attributes",
+  "description": "Make attributes in all HTML tags flow in a specific order.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/reorder-attributes",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/reorder-attributes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/reorder-attributes/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/reorder-attributes/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.2.0"
+  },
+  "keywords": [
+    "attr",
+    "attrib",
+    "attribute",
+    "attributes",
+    "attrs",
+    "element",
+    "format",
+    "html",
+    "lint",
+    "order",
+    "prettify",
+    "re-order",
+    "tag",
+    "tags"
+  ],
+  "dependencies": {
+    "array-uniq": "^1.0.1",
+    "cheerio": "^0.17.0",
+    "object.pick": "^0.1.1"
+  }
+}
