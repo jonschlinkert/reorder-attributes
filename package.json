@@ -1,7 +1,7 @@
 {
   "name": "reorder-attributes",
-  "description": "Make attributes in all HTML tags flow in a specific order.",
-  "version": "0.1.0",
+  "description": "Re-format attributes in HTML tags to flow in a specific order. If you always prefer `class` before `id` or whatever, this module does that.",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/reorder-attributes",
   "author": {
     "name": "Jon Schlinkert",
@@ -39,12 +39,14 @@
     "attribute",
     "attributes",
     "attrs",
+    "beautify",
     "element",
     "format",
     "html",
     "lint",
     "order",
     "prettify",
+    "re-format",
     "re-order",
     "tag",
     "tags"

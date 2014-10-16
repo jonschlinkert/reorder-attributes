@@ -1,6 +1,6 @@
 # reorder-attributes [![NPM version](https://badge.fury.io/js/reorder-attributes.svg)](http://badge.fury.io/js/reorder-attributes)
 
-> Make attributes in all HTML tags flow in a specific order.
+> Re-format attributes in HTML tags to flow in a specific order. If you always prefer `class` before `id` or whatever, this module does that.
 
 ## Install
 #### Install with [npm](npmjs.org):
